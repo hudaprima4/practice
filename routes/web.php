@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::resource('kontak','Kontak');
 Route::get('/', function () {
     return view('index');
 });
